@@ -1,0 +1,34 @@
+{
+  "name": "twimbit neo",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+  },
+  "color_schemes": {
+    "Twimbit color palette": {
+      "primary": "00485A",
+      "primary-medium": "00485A",
+      "primary-low-mid": "ED6A6F",
+      "secondary": "ffffff",
+      "tertiary": "ED6A6F",
+      "quaternary": "ED6A6F",
+      "header_background": "ffffff",
+      "header_primary": "00485A",
+      "highlight": "EFA6A9",
+      "highlight-high": "ffffff",
+      "highlight-medium": "ffffff",
+      "highlight-low": "ffffff",
+      "danger": "BB1122",
+      "success": "3d854d",
+      "love": "ED6A6F"
+    }
+  },
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}
