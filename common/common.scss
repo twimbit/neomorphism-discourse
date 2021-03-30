@@ -304,7 +304,7 @@ hr {
     border-top:1px solid #575F6B!important;
 }
 
-.categories, .latest-topic-list{
+.categories{
     background: linear-gradient(#f2f3f6 0%, #e5e6ec 100%);
     box-shadow: 3px 3px 20px rgb(36 65 93 / 30%);
     border-radius: 16px;
@@ -314,14 +314,22 @@ hr {
     margin-right: 2vw;
     margin-left: -1.5vw;
     filter: drop-shadow(-4px -4px 20px #fff);
-}
-
-.categories{
     height: 59vh;
 }
-.latest-topic-list{
+.latest-topic-list
+{
+    background: linear-gradient(#f2f3f6 0%, #e5e6ec 100%);
+    box-shadow: 3px 3px 20px rgb(36 65 93 / 30%);
+    border-radius: 16px;
+    width: 533.03px;
+    border-color: transparent;
+    padding: 2%;
+    margin-right: 2vw;
+    margin-left: -1.5vw;
+    filter: drop-shadow(-4px -4px 20px #fff);
     height: 72vh;
 }
+
 .category-list th{
     font-family: Nunito;
     font-weight: 500;
