@@ -304,13 +304,14 @@ hr {
     border-top:1px solid #575F6B!important;
 }
 
+
 .categories{
     background: linear-gradient(#f2f3f6 0%, #e5e6ec 100%);
     border-radius: 16px;
     width: 533.03px;
     border-color: transparent;
     padding: 2%;
-    margin-right: 2vw;
+    margin-right: 2vw!important;
     margin-left: -1.5vw;
     filter: drop-shadow(-4px -4px 20px #fff);
     height: 59vh;
@@ -333,20 +334,16 @@ hr {
     font-weight: 500;
     font-size: 26px;
     text-align: left;
-    color: #575F6B;
+    color: #575F6B!important;
     border: 1px solid rgba(0, 0, 0, 0);
     text-shadow: 0px 3px 6px rgba(44, 48, 54, 0.25);
     backdrop-filter: blur(30px);
     --webkit-backdrop-filter: blur(30px);
 }
-.table-heading{
-    font-family: Nunito;
-    font-weight: 500;
-    font-size: 26px;
-    text-align: left;
-    color: #575F6B;
-    border: 1px solid rgba(0, 0, 0, 0);
-    text-shadow: 0px 3px 6px rgba(44, 48, 54, 0.25);
-    backdrop-filter: blur(30px);
-    --webkit-backdrop-filter: blur(30px);
+tbody {
+    border-top: 1px solid #575f6b!important;
+    background: transparent;
+    border: 1px solid #575f6b;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
 }
+
