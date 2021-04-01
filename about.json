@@ -27,7 +27,8 @@
       "success": "3d854d",
       "love": "ED6A6F",
       "primary-med-or-secondary-high": "00485A",
-      "primary-low": "#d1d5de"
+      "primary-low": "#d1d5de",
+      "header_primary-low-mid": "#9da0a7;"
     }
   },
   "modifiers": {
