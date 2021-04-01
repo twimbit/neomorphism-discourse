@@ -25,7 +25,8 @@
       "highlight-low": "ffffff",
       "danger": "BB1122",
       "success": "3d854d",
-      "love": "ED6A6F"
+      "love": "ED6A6F",
+      "primary-med-or-secondary-high": "00485A"
     }
   },
   "modifiers": {

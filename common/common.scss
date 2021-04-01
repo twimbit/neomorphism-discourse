@@ -181,7 +181,8 @@ ul, dd{
         width: 90%;
     }
 }
-.btn-default{ background-color:#ED6A6F;
+.btn-default{
+    background-color:var(--tertiary);
     color:white;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
     border-radius: 8px;
