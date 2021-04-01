@@ -323,7 +323,7 @@ hr {
 }
 .latest-topic-list
 {
-    background: linear-gradient(#f2f3f6 0%, #e5e6ec 100%);
+    background: linear-gradient(rgb(242, 243, 246) 0%, rgb(238, 239, 245) 100%);
     border-radius: 16px;
     width: 533.03px;
     border-color: transparent;
@@ -331,6 +331,7 @@ hr {
     margin-right: 2vw!important;
     margin-left: -1.5vw;
     filter: drop-shadow(-4px -4px 20px #fff);
+    box-shadow: #ffffff -4px -4px 20px, #F0F1F7 3px 3px 20px;
     height: 72vh;
 }
 
@@ -360,5 +361,7 @@ tr {
 }
 .latest-topic-list-item{
     border-bottom: 1px solid #d1d5de;
-
+}
+.discourse-no-touch .d-header-icons .icon:hover, .discourse-no-touch .d-header-icons .icon:focus{
+    background-color: rgba(0, 0, 0, 0.04)!important;
 }
