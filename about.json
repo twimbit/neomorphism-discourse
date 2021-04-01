@@ -12,6 +12,7 @@
   "color_schemes": {
     "Twimbit color palette": {
       "primary": "00485A",
+      "primary-low": "#d1d5de",
       "primary-medium": "00485A",
       "primary-low-mid": "ED6A6F",
       "secondary": "ffffff",
@@ -27,7 +28,8 @@
       "success": "3d854d",
       "love": "ED6A6F",
       "primary-med-or-secondary-high": "00485A",
-      "primary-low": "#575f6b"
+
+
     }
   },
   "modifiers": {
