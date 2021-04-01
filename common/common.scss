@@ -309,15 +309,17 @@ hr {
 }
 
 .categories{
-    background: linear-gradient(#f2f3f6 0%, #e5e6ec 100%);
+    background: linear-gradient(rgb(242, 243, 246) 0%, rgb(238, 239, 245) 100%);
     border-radius: 16px;
     width: 533.03px;
     border-color: transparent;
     padding: 2%;
-    margin-right: 2vw!important;
-    margin-left: -1.5vw;
+    margin-right: 4vw !important;
+    margin-left: -1vw;
     filter: drop-shadow(-4px -4px 20px #fff);
+    box-shadow: #ffffff -4px -4px 20px, #f0f1f7 3px 3px 20px;
     height: 59vh;
+    cursor: pointer;
 }
 .latest-topic-list
 {
