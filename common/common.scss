@@ -4,6 +4,7 @@ header.d-header.clearfix {
 }
 body{
     background: #F8F8FC;
+    font-family: 'Nunito'!important;
 }
 
 .topic-body .cooked{
@@ -31,7 +32,7 @@ body{
 .discourse_banner
 {
     background-color: #707070;
-    display: flex;
+    //display: flex;
     align-items: center;
     color: #FFFFFF;
     position: relative;
