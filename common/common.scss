@@ -290,7 +290,7 @@ nav.post-controls .actions button.create .d-icon{
     background: transparent !important;
 }
 
-.alert-info{
+.welcome-twimbit{
     margin-right: 20%!important;
     margin-left: 20% !important;
     border-radius: 10px!important;
@@ -371,4 +371,8 @@ tr {
 }
 .discourse-no-touch .d-header-icons .icon:hover, .discourse-no-touch .d-header-icons .icon:focus{
     background-color: rgba(0, 0, 0, 0.04)!important;
+}
+
+.menu-panel.drop-down{
+    border-radius: 16px!important;
 }
