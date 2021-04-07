@@ -34,7 +34,7 @@ body{
 
 .discourse_banner
 {
-    background-color: #707070;
+    background-color: var(--primary)!important;
     //display: flex;
     align-items: center;
     color: #FFFFFF;
@@ -62,7 +62,7 @@ body{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #00485A;
+    //background-color: #00485A;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 .banner-box .row .single-box .banner-list ul li{
