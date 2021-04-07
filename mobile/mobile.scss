@@ -23,12 +23,35 @@
 //Search css
 
 .search-widget {
+    display: flex;
+    position: relative;
+    align-items: center;
     .search-link {
         .badge-category {
             display: inline-block;
         }
     }
 }
+
+.custom-search-banner-wrap .search-menu {
+    /* position: relative; */
+    display: flex;
+    width: 95%;
+    box-shadow: inset 7px 7px 14px #ededed, inset -7px -7px 14px #ffffff !important;
+    background: #ffffff !important;
+    margin-left: 10px;
+    border-radius: 83px;
+}
+.search-icon{
+    width: 60px;
+}
+
+.search-menu {
+    input[type="text"] {
+        font-size: 15px;
+    }
+}
+
 
 .custom-search-banner-wrap .results {
     padding: 2em 0.5em 0.5em;
