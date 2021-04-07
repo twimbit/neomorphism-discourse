@@ -403,7 +403,9 @@ tr {
             margin-left:-33px;
         }
         .blurb {
-            color: var(--secondary-high);
+            color: var(--secondary);
+            font-size: 22px;
+            width: 100%;
         }
     }
     .second-box {
