@@ -1,8 +1,8 @@
 Heading:
-  default: "This is a header"
+  default: "Twimbit"
   max: 25
   description:
-    en: "Text for the heading in the footer - you can use your site name for example - Max length 25 characters"
+    en: "The world is moved by ideas and technology!"
 Blurb:
   default: "Ius vitae ornatus at, ei mea sumo quot dicant. Ei tale democritum eos, in mea timeam accumsan forensibus. Ei his aperiam suavitate. Et debitis convenire sea, viris dictas latine."
   max: 180
@@ -11,7 +11,7 @@ Blurb:
 Link_sections:
   type: list
   list_type: simple
-  default: "Design, Get inspired!|Code, Learn new things!|Business, Start a new career!|Shop, Buy cool stuff!|Community, The latest news about the people you care about!|World, Check out what's happening"
+  default: "Company, Learn new things!|Business, Start a new career!|Shop, Buy cool stuff!|Community, The latest news about the people you care about!|World, Check out what's happening"
   description:
     en: "Add link sections. The ideal number of sections is six. One item per line in this order:<br> Text, title<br><b>Text:</b> what appears on in the footer<br><b>Title:</b> the text that appears when the item is hovered."
 Links:
@@ -41,3 +41,38 @@ svg_icons:
   type: "list"
   list_type: "compact"
   description: "List of FontAwesome 5 icons used in the social links setting above. "
+
+
+
+
+
+show_on:
+  default: top_menu
+  type: enum
+  choices:
+    - top_menu
+    - homepage
+    - all
+  description: top_menu refers to the <a href="/admin/site_settings/category/all_results?filter=top_menu">top menu site setting</a>
+
+plugin_outlet:
+  default: "above-main-container"
+  type: enum
+  choices:
+    - above-main-container
+    - below-site-header
+
+background_image:
+  type: string
+  default: none
+  description: Enter an image url
+
+tile_background_image: false
+
+show_for:
+  default: everyone
+  type: enum
+  choices:
+    - everyone
+    - logged_in
+    - logged_out
