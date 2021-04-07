@@ -404,7 +404,6 @@ tr {
         }
         .blurb {
             color: var(--secondary);
-            font-size: 22px;
             width: 100%;
         }
     }
@@ -428,7 +427,7 @@ tr {
         width: 100%;
         display: flex;
         align-items: center;
-        border-top: 1px solid rgba(var(--primary-low-rgb), 0.05);
+        border-top: 1px solid var(--secondary);
         .social {
             display: flex;
             flex-wrap: wrap;
