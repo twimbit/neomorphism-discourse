@@ -394,7 +394,7 @@ tr {
         padding: 2em 0 1em 0;
     }
     .first-box {
-        max-width: 20%;
+        max-width: 30%;
         .heading {
             font-size: $font-up-2;
             font-weight: bold;
@@ -403,7 +403,9 @@ tr {
             margin-left:-33px;
         }
         .blurb {
-            color: var(--secondary-high);
+            color: var(--secondary);
+            font-size: 22px;
+            width: 100%;
         }
     }
     .second-box {
