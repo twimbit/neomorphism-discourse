@@ -462,7 +462,8 @@ tr {
         font-weight: bold;
     }
     .footer-section-link-wrapper a {
-        color: var(--secondary-high);
+        color: var(--secondary);
+        font-size: 20px;
     }
     .list {
         margin: 1em;
@@ -521,6 +522,7 @@ tr {
         .list {
             margin: 0;
             margin-top: 1em;
+            font-size: 22px;
         }
         .first-box,
         .second-box,
