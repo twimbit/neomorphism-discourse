@@ -580,7 +580,7 @@ $max-width: 700px;
     }
     box-sizing: border-box;
     position: relative;
-    padding: 2.5em 0 3em;
+    //padding: 2.5em 0 3em;
     margin: 1em auto;
     @include breakpoint(tablet) {
         padding: 1em 8px 2em;
@@ -727,4 +727,11 @@ input[type="text"]:focus{
 .custom-search-banner-wrap .search-icon:hover{
     background: linear-gradient(#ed6a6f 0%, #efa6a9 100%)!important;
     color:var(--secondary)!important;
+}
+
+.search-widget{
+    position: fixed!important;
+    top: 8px!important;
+    width: 36%!important;
+    z-index: 99999!important;
 }
