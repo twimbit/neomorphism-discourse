@@ -730,10 +730,11 @@ input[type="text"]:focus{
 }
 
 .search-widget{
-    position: fixed!important;
-    top: 8px!important;
-    width: 36%!important;
-    z-index: 99999!important;
+    position: fixed !important;
+    top: 8px !important;
+    width: 55vw !important;
+    left:25vw;
+    z-index: 99999 !important;
 }
 
 .countme-in{
