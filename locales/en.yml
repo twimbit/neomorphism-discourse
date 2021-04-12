@@ -2,3 +2,14 @@ en:
   search_banner:
     headline: "Welcome to our community"
     subhead: "We're happy to have you here. If you need help, please search before you post."
+
+---
+
+en:
+  close:
+    title: Close the banner
+    label: Close
+  toggle:
+    title: Expand/Collapse the banner
+    collapse_label: Collapse
+    expand_label: Expand
