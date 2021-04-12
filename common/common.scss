@@ -1,13 +1,13 @@
 @import "common/foundation/mixins";
 
+body{
+    background: #F8F8FC;
+    font-family: 'Nunito'!important;
+}
 
 header.d-header.clearfix {
     background: white;
     box-shadow: #ded7d74d 0px 5px 9px 3px;
-}
-body{
-    background: #F8F8FC;
-    font-family: 'Nunito'!important;
 }
 
 .topic-body .cooked{
@@ -27,23 +27,15 @@ body{
     box-shadow: 1px 4px 8px 1px #e1dede;
 }
 
-
 #main-outlet{
     padding-top:0;
 }
 
-.discourse_banner
-{
-    background-color: var(--primary)!important;
-    //display: flex;
+.discourse_banner {
     align-items: center;
     color: #FFFFFF;
-    position: relative;
-    width:100vw;
     left: 50%;
     right: 50%;
-    margin-left: -51vw;
-    margin-right: -50vw;
     margin-bottom: 30px;
 }
 
@@ -52,17 +44,13 @@ body{
     max-width: unset;
     margin: 0;
 }
+
 .banner-box {
-    /* width: 1110px; */
+    width: 1110px;
     max-width: calc(100% - 16px);
-    /* margin: 0 auto; */
-    /* margin-top: 20px; */
+    margin: 0 auto;
     color: #FFFFFF;
     position: relative;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    //background-color: #00485A;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 .banner-box .row .single-box .banner-list ul li{
@@ -70,12 +58,10 @@ body{
     margin: 0;
 }
 
-
 #main .banner-box .container {
     max-width: 85%;
     margin: 0 auto;
 }
-
 
 .banner-box .button-container {
     margin-right: 5px;
@@ -90,12 +76,18 @@ body{
 }
 
 .banner-box .section-header .x-title {
-    padding: 25px 65px;
+    padding: 20px 0px!important;
     margin: 0;
 }
 
-.banner-box h1, .banner-box h2, .banner-box h3 {
-    text-align: center;
+.twimbit-main{
+    font-weight: normal;
+    text-align: left;
+    color: #2c3036!important;
+}
+
+.banner-box h1, .banner-box h2 {
+    text-align: left!important;
     color: #ed6a6f;
 }
 
@@ -106,11 +98,30 @@ body{
     background: #ed6a6f;
 }
 
+.twimbit-club{
+    color:#ED6A6F;
+    font-weight: normal;
+}
+
+.twimbit-club1{
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #ED6A6F;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
 .banner-box .section-header .description p {
     margin: 0;
-    padding: 15px;
-    text-align: center;
+    padding: 0px!important;
+    text-align: left!important;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #575f6b;
+    border: 1px solid rgba(0, 0, 0, 0);
 }
+
 .banner-box .section-header .colored-line {
     margin: auto;
     width: 165px;
@@ -129,17 +140,26 @@ body{
     min-height: 1px;
     padding: 0px 15px 30px;
     text-align: center;
+}
 
+.fullscreen-bg {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
 }
 
 .first_column {
     flex-grow: 1;
     flex-basis: 0;
 }
+
 .second_column {
     flex-grow: 1;
     flex-basis: 0;
 }
+
 .third_column {
     flex-grow: 1;
     flex-basis: 0;
@@ -738,7 +758,7 @@ input[type="text"]:focus{
 }
 
 .countme-in{
-    padding: 10px 65px;
+    padding: 20px 0px;
     margin: 0;
-    text-align: center;
+    text-align: left!important;
 }
