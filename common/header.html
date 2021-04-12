@@ -1,6 +1,6 @@
 <script type="text/x-handlebars" data-template-name="/connectors/below-site-header/custom-homepage">
-{{#if displayCustomHomepage}}
-    <div class="discourse_banner">
+    {{#if displayCustomHomepage}}
+        <div class="discourse_banner">
         <span class="discourse_twimbit">
             <div class="custom-banner-outlet banner ">
                 <div class="banner">
@@ -8,17 +8,25 @@
                         <div class="container">
                             <div class="button-container"></div>
                             <div class="section-header">
-                                <h2 class="x-title">Twimbit Open Source Research Community</h2>
-                                <div class="colored-line"></div>
+                                <h2 class="x-title">👋 <span class="twimbit-main">Welcome to </span><span class="twimbit-club">twimbit club,</span><br><span class="twimbit-main">Open Source Research Community</span></h2>
                                 <div class="description">
                                   <p>
-                                    Bring joy to every business and career!
+                                    <span class="twimbit-club1">twimbit club</span> enabled people from different industry domains and levels come together and share expertise. Join the revolution to make research opensource
                                   </p>
                                 </div>
                                 <div class="buttons countme-in" id="my-button">
-                                  <a href="https://twimbit.com/auth?tab=signup" class="btn btn-icon-text count-me-in">Count me in!</a>
+                                  <a href="https://twimbit.com/auth?tab=signup" class="btn btn-icon-text count-me-in" target="_blank">Count me in!</a>
+                                </div>
+
+                                <div class="banner-video">
+                                    <div class="fullscreen-bg">
+                                        <iframe title="vimeo-player" src="https://player.vimeo.com/video/345407086" width="640" height="360" frameborder="0" allowfullscreen class="fullscreen-bg__video"></iframe>
+                                    </div>
                                 </div>
                             </div>
+
+
+
                             <div id="banner-content_wrap">
                                 <div class="row">
                                     <div class="first_column single-box">
@@ -80,6 +88,6 @@
                 </div>
             </div>
         </span>
-    </div>
-{{/if}}
+        </div>
+    {{/if}}
 </script>
