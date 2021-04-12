@@ -42,9 +42,10 @@ header.d-header.clearfix {
 .banner-box {
     width: 1110px;
     max-width: calc(100% - 16px);
-    margin: 0 auto;
-    color: #FFFFFF;
+    margin: 20px auto;
     position: relative;
+    border-radius:16px;
+    color: #575F6B;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 .banner-box .row .single-box .banner-list ul li{
@@ -82,6 +83,10 @@ header.d-header.clearfix {
 
 .banner-box h1, .banner-box h2 {
     text-align: left!important;
+    color: #ed6a6f;
+}
+.banner-box h3{
+    text-align: center!important;
     color: #ed6a6f;
 }
 
