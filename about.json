@@ -14,6 +14,7 @@
       "primary": "00485A",
       "primary-medium": "00485A",
       "primary-low-mid": "ED6A6F",
+      "primary-low": "#d1d5de",
       "secondary": "ffffff",
       "tertiary": "ED6A6F",
       "quaternary": "ED6A6F",
@@ -27,7 +28,6 @@
       "success": "3d854d",
       "love": "ED6A6F",
       "primary-med-or-secondary-high": "00485A",
-      "primary-low": "#d1d5de",
       "header_primary-low-mid": "#9da0a7;"
     }
   },
