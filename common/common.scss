@@ -46,7 +46,9 @@ header.d-header.clearfix {
     position: relative;
     border-radius:16px;
     color: #575F6B;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    filter: drop-shadow(-4px -4px 20px #fff);
+    border-color: transparent;
+    box-shadow: #ffffff -4px -4px 20px, #f0f1f7 3px 3px 20px;
     background: linear-gradient(#f2f3f6 0%, #e5e6ec 100%);
 }
 .banner-box .row .single-box .banner-list ul li{
