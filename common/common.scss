@@ -405,7 +405,8 @@ tr {
 .custom-footer {
     display: flex;
     flex-wrap: wrap;
-    background: var(--primary);
+    background: linear-gradient(to bottom right,#2c3036 0,#575f6b 100%);
+    //background: var(--primary);
     .flexbox {
         width: 100%;
         display: flex;
