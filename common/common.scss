@@ -245,8 +245,8 @@ color:#575F6B;
 }
 
 nav.post-controls .actions button.create{
-    background-color:#ed6a6f;
-    color:#fff;
+    background-color: var(--tertiary);
+    color:var(--secondary);
     border-radius:8px;
     opacity:0;
 }
@@ -255,7 +255,7 @@ nav.post-controls .actions button
     padding:10px!important;
 }
 nav.post-controls .actions button.create .d-icon{
-    color:#fff;
+    color:var(--secondary);
 }
 
 .d-icon-wrench{color:#575F6B!important;}
