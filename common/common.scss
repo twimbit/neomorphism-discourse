@@ -86,22 +86,22 @@ header.d-header.clearfix {
 
 .banner-box h1, .banner-box h2 {
     text-align: left!important;
-    color: #ed6a6f;
+    color:var(--tertiary);
 }
 .banner-box h3{
     text-align: center!important;
-    color: #ed6a6f;
+    color:var(--tertiary);
 }
 
 .banner-box .section-header .colored-line {
     margin: auto;
     width: 165px;
     height: 1px;
-    background: #ed6a6f;
+    color:var(--tertiary);
 }
 
 .twimbit-club{
-    color:#ED6A6F;
+    color:var(--tertiary);
     font-weight: normal;
 }
 
@@ -109,7 +109,7 @@ header.d-header.clearfix {
     font-weight: 500;
     line-height: 20px;
     text-align: left;
-    color: #ED6A6F;
+    color:var(--tertiary);
     border: 1px solid rgba(0, 0, 0, 0);
 }
 
@@ -286,7 +286,7 @@ nav.post-controls .actions button.create .d-icon{
     color:#fff!important;
 }
 .btn:hover {
-    background: #ed6a6f!important;
+    background: var(--quaternary-low)!important;
     color:#fff!important;
 }
 .toggle-admin-menu:hover
