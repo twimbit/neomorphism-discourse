@@ -671,7 +671,7 @@ $max-width: 700px;
         z-index: 2;
         order: 2;
         right: 0;
-        background: linear-gradient(#ed6a6f 0%, #efa6a9 100%);
+        background: linear-gradient(var(--tertiary) 0%, var(--highlight)100%);
         border-radius: 83px;
         padding: 10px 20px;
         height:43px;
@@ -748,7 +748,7 @@ input[type="text"]:focus{
 
 }
 .custom-search-banner-wrap .search-icon:hover{
-    background: linear-gradient(#ed6a6f 0%, #efa6a9 100%)!important;
+    background: linear-gradient(var(--tertiary) 0%, var(--highlight)100%)!important;
     color:var(--secondary)!important;
 }
 
