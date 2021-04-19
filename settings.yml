@@ -1,6 +1,6 @@
 Heading:
   default: "Twimbit"
-  max: 25
+  max: 2500
   description:
     en: "The world is moved by ideas and technology!"
 Blurb:
