@@ -102,10 +102,14 @@
 }
 .selected-name {
     padding-top: 4px;
-    paading-left: 10px;
+    padding-left: 10px;
 }
 
 .select-kit.dropdown-select-box.period-chooser{
     background-color: var(--tertiary);
+    border-radius: 10px;
     }
+ .date-section {
+    color: var(--secondary)!important;
+ }
 
