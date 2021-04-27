@@ -380,9 +380,6 @@ hr {
     box-shadow: #ffffff -4px -4px 20px, #F0F1F7 3px 3px 20px;
     height: 100%;
 }
-.top-topic-list{
-
-}
 
 .category-list th, .table-heading{
     font-family: Nunito;
@@ -805,3 +802,11 @@ input[type="text"]:focus{
     border-radius:8px!important;
 }
 
+.extra-info-wrapper .title-wrapper {
+    display: grid;
+    grid-template-areas:
+        "title title"
+        "categories extra";
+    grid-template-columns: auto minmax(2em, 1fr);
+    align-items: baseline;
+}
