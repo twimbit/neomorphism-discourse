@@ -2,9 +2,9 @@
   "name": "neomorphism",
   "component": false,
   "license_url": null,
-  "about_url": null,
-  "authors": null,
-  "theme_version": null,
+  "about_url": "https://github.com/twimbit/neomorphism-discourse",
+  "authors": "twimbit",
+  "theme_version": 1.0,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
