@@ -1,4 +1,4 @@
-# neomorphism-discourse
+# Neomorphism Discourse theme
 Discourse theme with neomorphism design 
 
 [![Twimbit](https://img.shields.io/badge/Powered%20by%20%7C-Twimbit-ef6d6c)](https://twimbit.com) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/twimbit/neomorphism-discourse) ![Discourse posts](https://img.shields.io/discourse/posts?server=https%3A%2F%2Fmeta.discourse.org%2Ft%2Fneomorphism-a-modern-theme-for-discourse%2F188657)
