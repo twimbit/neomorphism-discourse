@@ -11,13 +11,12 @@ header.d-header.clearfix {
 }
 
 .topic-body .cooked{
-    padding:40px;
+    padding: 20px 25px 10px 25px;
 }
 
 .cooked{
-    margin-bottom: 35px;
-    margin-top: 32px;
-    padding-top: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     background: #fff;
     line-height: 27px;
     padding-bottom: 10px;
@@ -331,7 +330,7 @@ nav.post-controls .actions button.create .d-icon{
 .topic-body .topic-meta-data{
     background: rgb(225, 238, 249);
     display: flex;
-    padding: 30px 40px 30px 20px;
+    padding: 20px 40px 20px 20px;
     align-items: center;
     border-radius: 10px;
 }
