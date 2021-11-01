@@ -38,6 +38,11 @@ header.d-header.clearfix {
     margin-bottom: 30px;
 }
 
+.search-menu .search-input
+{
+    border: 0px solid var(--primary-medium)!important;
+}
+
 .banner-box {
     width: 1110px;
     max-width: calc(100% - 16px);
