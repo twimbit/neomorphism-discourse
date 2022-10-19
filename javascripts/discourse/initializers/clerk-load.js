@@ -3,7 +3,7 @@ export default {
     initialize() {
 
 
-        const frontendApi = 'clerk.climbing.fawn-51.lcl.dev'; // <- Add Frontend API here
+        const frontendApi = 'clerk.twimbit.com'; // <- Add Frontend API here
 
         jQuery(document).ready(function ($) {
             const script = document.createElement('script');
@@ -28,7 +28,7 @@ export default {
 
                 $('.d-header-wrap').on('click', '.logout', () => {
                     $.ajax({
-                        url: "http://localhost:4343/logout?session=" + Clerk.session.id,
+                        url: "https://auth.twimbit.com/logout?session=" + Clerk.session.id,
                         type: "get",
                         contentType: "application/json; charset=utf-8",
                         dataType: "json",
