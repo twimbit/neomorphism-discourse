@@ -27,12 +27,15 @@ export default {
                 await Clerk.load();
 
                 $('.d-header-wrap').on('click', '.logout', () => {
-                    $.ajax({
-                        url: "https://auth.twimbit.com/logout?session=" + Clerk.session.id,
-                        type: "get",
-                        contentType: "application/json; charset=utf-8",
-                        dataType: "json",
-                    });
+
+                    Clerk.signOut();
+
+                    // $.ajax({
+                    //     url: "https://auth.twimbit.com/logout?session=" + Clerk.session.id,
+                    //     type: "get",
+                    //     contentType: "application/json; charset=utf-8",
+                    //     dataType: "json",
+                    // });
                 });
 
                 // Clerk.addListener(({client, user}) => {
